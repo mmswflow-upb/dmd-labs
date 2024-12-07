@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/theme_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Dark Mode"
+         />
+
+
+    <Button
+        android:id="@+id/insert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Sample Students"
+        android:layout_below="@id/theme_switch"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/save_alphabetical_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Alphabetical List"
+        android:layout_below="@id/insert_button"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/save_grade_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save List by Grade"
+        android:layout_below="@id/save_alphabetical_button"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/student_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student List"
+        android:layout_below="@id/save_grade_button"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
