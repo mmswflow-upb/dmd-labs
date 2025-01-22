@@ -1,4 +1,4 @@
-package com.example.services03
+package com.example.dmd_lab_3
 
 import org.junit.Test
 
